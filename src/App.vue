@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+     <button type="button" class="btn btn-success">Success</button>
+     <button type="button" class="btn btn-info">Info</button>
+     <button type="button" class="btn btn-warning">Warning</button>
+  </div> -->
+  <ProfileHeader></ProfileHeader>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ProfileHeader from './components/ProfileHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ProfileHeader
+
   }
 }
 </script>
@@ -21,6 +28,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
