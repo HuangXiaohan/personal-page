@@ -1,0 +1,80 @@
+{
+    "experiences":[
+        {
+            "company" : "Group Nice Matin",
+            "duration" : "2022.9 - 2023.3",
+            "title" : {
+                "fr" : "CDI: Application mobile - une nouvelle application POC d'actualités en temps réel pour le groupe nice matin. (Flutter)",
+                "en" : "CDI: Mobile Application - a new real-time news POC application for the groupe nice matin. (Flutter)"
+            },
+            "content" : {
+                "fr" : [
+                    "Développement informatique - Réaliser les fonctionnalités principales: | - S’inscrire/connexion: par SSO | - S’inscrire/connexion par Google | - Abonnement: payer l’abonnement avec in app purchase (iOS/Android) | - User profile | - Push Notification | - Firebase crashlytics | - Deep link: partager l’url d’article / revenir à l’article dans l’app en cliquant l’url",
+                    "Tester et publier les applications récentes (App store / Google play store)",
+                    "Reconstruire la documentation confluence"
+                ]
+            },
+            "environment" : "Flutter, BLoC, REST API, SSO, Firebase"
+        },
+        {
+            "company" : "AKT",
+            "duration" : "2021.5 - 2022.7",
+            "title" : {
+                "fr" : "CDI: Application mobile Akt - application de mobilité financière pour combiner les meilleurs outils de la néobanque, de la crypto et de l'investissement traditionnel. (Flutter)"
+            },
+            "content" : {
+                "fr" : [
+                    "Développement informatique - Réaliser les fonctionnalités principales: | - Exchange: l’exchange de crypto / fiat et le virement  | - Benéficiaire: ajouter / supprimer / généner les bénéficiaires | - KYC: processus de kyc et modifier le profile | - Wallet: tous les détails de wallet / crypto (le graphe de prix et sentiment marketing, liste de transaction etc.)",
+                    "Optimiser l’architecture et la qualité du code (BLoC)",
+                    "Review spec fonctionelle et pull request"
+                ]
+            },
+            "environment" : "Flutter, dart, REST API, MongoDB, Agile"
+        },
+        {
+            "company" : "Orange business services",
+            "duration" : "2020.5 - 2020.10",
+            "title" : {
+                "fr" : "Stage: Outil administrateur d’Abacus - outil pour surveiller les données système d'une application de création de devis. (Full stack)"
+            },
+            "content" : {
+                "fr" : [
+                    "Front: Une page d’admin pour afficher les détails des flux de données pour différentes étapes du workflow d’Abacus. (VueJs)",
+                    "Back: Services pour récupérer et organiser les flux de données. (ASP.NET)",
+                    "API: APIs utilisé en front par Ajax pour récupérer / envoyer les données de / à back-end. (ASP.NET, REST, Ajax)"
+                ]
+            }
+        },
+        {
+            "company" : "Scity.coop",
+            "duration" : "2019.3 - 2020.2",
+            "title" : {
+                "fr" : "CDD: SilverMobi - Développement d'une application mobile fournissant un service de transport particulier aux séniors. \\n\\n Rydigo / Mobilact - une application de covoiturage flexible et solidaire. (Full stack)"
+            },
+            "content" : {
+                "fr" : [
+                    "SliverMobi - Inscription, le processus duquel inclut ajoute le numéro de téléphone, la photo, le profil et la pièce d’identité, etc. (Flutter,  BLoC)",
+                    "SliverMobi - Pour le passager, créer du trajet, faire une demande au conducteur, supprimer le trajet et annuler la demande. (Flutter, BLoC)",
+                    "SliverMobi - Pour le conducteur, créer/modifier/supprimer ses disponibilités, accepter/refuser une demande.  (Flutter, Dart, Go, Graphql, MongoDB)",
+                    "Vidéos pour présenter le produit. (AE) ",
+                    "Ridygo - Cherche et Rejoint des communautés correspondants. (Flutter, Angular Dart, Dart, Go, Graphql, MongoDB)",
+                    "Ridygo - Affichage la durée de transports différents. (Flutter, Dart, Go, Graphql, MongoDB)",
+                    "Ridygo - Calcul le prix et l’émission de carbone économisée par rapport au covoiturage pour chaque mode de transport. (Flutter, Dart, Go, Graphql, MongoDB)"
+                ]
+            }
+        },
+        {
+            "company" : "Beauty plus",
+            "duration" : "2017.7 - 2017.9",
+            "title" : {
+                "fr" : "Stage: Développement web front-end pour une plateforme d'e-commerce destinée aux instituts de beauté."
+            },
+            "content" : {
+                "fr" : [
+                    "Page web en mobile sur l’activité des promotions d’institut. (Html, Css, VueJs, JS)",
+                    "Page web en pc sur le système gestion des commerçants. (Html, Css, VueJs, JS)"
+                ]
+            }
+        }
+    ]
+}

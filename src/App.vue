@@ -7,16 +7,20 @@
      <button type="button" class="btn btn-warning">Warning</button>
   </div> -->
   <ProfileHeader></ProfileHeader>
+  <div class="p-5">
+    <ExperienceSection></ExperienceSection>
+  </div>
 </template>
 
 <script>
 import ProfileHeader from './components/ProfileHeader.vue'
+import ExperienceSection from './components/ExperienceSection.vue'
 
 export default {
   name: 'App',
   components: {
-    ProfileHeader
-
+    ProfileHeader,
+    ExperienceSection
   }
 }
 </script>
@@ -26,7 +30,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>

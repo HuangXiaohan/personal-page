@@ -9,7 +9,7 @@
 
 <script>
 export default{
-    name: 'ProfileHeader'
+    name: 'profile-header'
 }
 </script>
 
@@ -17,11 +17,12 @@ export default{
 .background {
     background: url("../assets/bg-image.png") no-repeat;
     background-size: 100%;
+    text-align: center;
 }
 
 .circular--square { 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border-color:antiquewhite;
     border-style: double;
